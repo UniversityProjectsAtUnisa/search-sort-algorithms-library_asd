@@ -16,7 +16,8 @@ int searchMin(TInfo a[], int n) {
 }
 
 /* 
- * Selection Sort
+ * Selection Sort 
+ *   Theta(n^2)
  */
 
 void selectionSort(TInfo a[], int n) {
@@ -40,6 +41,8 @@ void insertInOrder(TInfo a[], int n, TInfo x) {
 
 /* 
  * Insertion Sort
+ *  best:Theta(n)
+ *  else:Theta(n^2)
  */
 
 void insertionSort(TInfo a[], int n) {
@@ -68,6 +71,7 @@ void merge(TInfo a1[], int n1, TInfo a2[], int n2, TInfo b[]) {
 
 /* 
  * Merge Sort
+ * Theta(n*log n)
  */
 
 void mergeSort(TInfo a[], int n) {
@@ -120,6 +124,8 @@ int partition(TInfo a[], int n) {
 
 /* 
  * Quick Sort
+ * worst:Theta(n^2)
+ * else :Theta(n*log n)
  */
 
 void quickSort(TInfo a[], int n) {
@@ -132,6 +138,8 @@ void quickSort(TInfo a[], int n) {
 
 /* 
  * Bubble Sort
+ *  best:Theta(n)
+ *  else:Theta(n^2)
  */
 
 void bubbleSort (TInfo a[], int n)
